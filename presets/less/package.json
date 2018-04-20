@@ -1,0 +1,23 @@
+{
+  "name": "@webpack/less",
+  "version": "0.0.1",
+  "author": "webpack",
+  "description": "less preset for webpack",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webpack/presets.git"
+  },
+  "homepage": "https://github.com/webpack/presets",
+  "main": "index.js",
+  "dependencies": {
+    "css-loader": "^0.28.11",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "webpack-merge": "^4.1.2"
+  },
+  "peerDependencies": {
+    "webpack": "^4.6.0"
+  }
+}

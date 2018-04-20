@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "name": "webpack-presets",
+  "version": "0.0.1",
+  "author": "webpack",
+  "description": "Repository for webpack presets",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webpack/presets.git"
+  },
+  "homepage": "https://github.com/webpack/presets",
+  "scripts": {
+    "precommit": "lint-staged",
+    "lint": "eslint --cache presets",
+    "release": "standard-version"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "chalk": "^2.4.0",
+    "eslint": "^4.19.1",
+    "eslint-config-webpack": "^1.2.5",
+    "eslint-plugin-import": "^2.11.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.4",
+    "standard-version": "^4.3.0",
+    "webpack-merge": "^4.1.2"
+  },
+  "dependencies": {
+    "charm": "^1.0.2",
+    "listr": "0.13.0",
+    "webpack": "^4.6.0"
+  }
+}
